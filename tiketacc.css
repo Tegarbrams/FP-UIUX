@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9493AB;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ticket {
+    background-color: #D0C9E4;
+    border: 2px solid #000;
+    padding: 20px;
+    width: 400px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.ticket-info, .personal-info, .info {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #E0DFF1;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}

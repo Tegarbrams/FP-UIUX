@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Pemesanan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 50%;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .ticket-details {
+            background-color: #e8edf4;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .ticket-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .ticket-header img {
+            width: 50px;
+            height: 50px;
+            border-radius: 4px;
+        }
+        .ticket-header h3 {
+            margin: 0;
+        }
+        .ticket-header a {
+            color: blue;
+            text-decoration: none;
+        }
+        .ticket-info {
+            margin-top: 10px;
+        }
+        .ticket-info h4 {
+            margin: 5px 0;
+        }
+        .ticket-info p {
+            margin: 5px 0;
+        }
+        .ticket-info .highlight {
+            font-weight: bold;
+        }
+        .ticket-footer {
+            margin-top: 20px;
+            border-top: 1px solid black;
+            padding-top: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .footer button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .footer button.back {
+            background-color: #f44336;
+            color: #ffffff;
+        }
+        .footer button.next {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ticket-details">
+            <div class="ticket-header">
+                <img src="asset/AFFANDI_1.png" alt="Museum Affandi">
+                <h3>Museum Affandi</h3>
+                <a href="#">Detail</a>
+            </div>
+            <div class="ticket-info">
+                <h4>Tiket Warga Lokal</h4>
+                <p>1 Tiket Warga Lokal <span class="highlight">1 Dewasa</span></p>
+                <p>Tanggal Dipilih <span class="highlight">Min, 07 Jul 2024</span></p>
+                <hr>
+                <p><span style="color: green;">&#10003; Bisa 100% Refund dengan asuransi</span></p>
+                <p>Asuransi tersedia dengan biaya tambahan</p>
+                <p>Konfirmasi instan</p>
+                <p>Berlaku di tanggal terpilih</p>
+            </div>
+            <div class="ticket-footer">
+                <p>Total Pembayaran</p>
+                <p>IDR 50.000</p>
+            </div>
+        </div>
+        <div class="footer">
+            <button class="back">Back</button>
+            <button class="next">Next</button>
+        </div>
+    </div>
+</body>
+</html>

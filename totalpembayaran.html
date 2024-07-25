@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total Pembayaran</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            background-color: #c7cfe1;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: left;
+        }
+        .container h2 {
+            margin: 0 0 20px 0;
+            font-size: 24px;
+        }
+        .points {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .points .circle {
+            width: 10px;
+            height: 10px;
+            background-color: blue;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .points p {
+            margin: 0;
+        }
+        .button-container {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .button-container button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button-container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Total Pembayaran <span style="float: right;">IDR 50.000 &#9662;</span></h2>
+        <div class="points">
+            <div class="circle"></div>
+            <p>Kamu akan mendapatkan 250 poin</p>
+        </div>
+        <div class="button-container">
+            <button>Lanjutkan pembayaran</button>
+        </div>
+    </div>
+</body>
+</html>

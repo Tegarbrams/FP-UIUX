@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Pemesanan</title>
+    <link rel="stylesheet" href="detailpemesanan.css">
+</head>
+
+<body>
+    <div class="order-detail-container">
+        <h1>Detail Pemesanan</h1>
+        <p>Isi formulir ini dengan benar karena e-tiket akan dikirim ke alamat email sesuai data pemesan.</p>
+
+        <div class="form-container">
+            <form>
+                <div class="title-selection">
+                    <label>
+                        <input type="radio" name="title" value="Tuan" checked>
+                        Tuan
+                    </label>
+                    <label>
+                        <input type="radio" name="title" value="Nyonya">
+                        Nyonya
+                    </label>
+                    <label>
+                        <input type="radio" name="title" value="Nona">
+                        Nona
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="full-name" name="full-name" placeholder="Nama Lengkap" required>
+                </div>
+
+                <div class="form-group phone-number">
+                    <select name="country-code" id="country-code">
+                        <option value="+62" selected>🇮🇩 +62</option>
+                        <option value="+1">🇺🇸 +1</option>
+                        <option value="+44">🇬🇧 +44</option>
+                        <option value="+61">🇦🇺 +61</option>
+                    </select>
+                    <input type="tel" id="phone" name="phone" placeholder="Nomor ponsel" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Alamat Email" required>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="next-button">Next</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
